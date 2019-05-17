@@ -1,0 +1,13 @@
+main {
+  width: 100px;
+  background-color: brown;
+  color: white;
+  height: 100px;
+  /* transition: <property> <duration> <timing-function> <delay>;*/
+  /* https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Transitions/Utiliser_transitions_CSS */
+  transition: width 5s;
+}
+
+main:hover {
+  width: 400px;
+}

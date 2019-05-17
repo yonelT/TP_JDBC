@@ -1,0 +1,16 @@
+@keyframes superAnimation {
+  from {
+    width: 100px;
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+main {
+  background-color: beige;
+  animation-name: superAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}

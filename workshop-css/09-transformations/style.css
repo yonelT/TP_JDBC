@@ -1,0 +1,6 @@
+main {
+  transform: rotateZ(90deg);
+  width: 100px;
+  background-color: brown;
+  color: white;
+}

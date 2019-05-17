@@ -1,0 +1,75 @@
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-size: 1.6rem;
+}
+
+
+/* sélecteur simple */
+header {
+  font-size: 100%;
+}
+
+
+/* sélecteur multiple */
+header, footer {
+  color: orange;
+}
+
+/* propriétés combinées
+header {
+  border : 1px solid red;
+}
+*/
+
+/* sélecteur d'attributs */
+input[type="submit"] {
+  color: pink;
+}
+
+/* tout les type qui commencent par "te", exemple input=text, sera en vert */
+input[type^="te"] {
+  color: green;
+}
+
+/* pseudo - hover
+form:hover {
+  background-color: red;
+}
+*/
+
+/* pseudo - before
+.left-aside:before {
+    color:red;
+    content: 'du texte depuis css';
+}
+*/
+
+/* pseudo - after \2605 désigne le caractère unicode étoile*/
+.left-aside:after {
+    color:red;
+    content: '\2605';
+}
+
+
+/* pseudo - first-letter
+main p:first-letter {
+    color:red;
+}
+*/
+
+/* pseudo - first-line
+main p:first-line {
+    color:red;
+}
+*/
+
+
+/* pseudo - focus
+input:focus {
+    background-color: blue;
+}
+*/

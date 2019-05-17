@@ -1,0 +1,42 @@
+html{
+    font-family: Helvetica, Arial;
+    text-align: center;
+}
+
+body{
+    background-color: #000099;
+}
+
+h1{
+    color: white;
+}
+
+ul{
+    list-style:none;
+}
+
+.item{
+    background-color: white;
+    width: 100%;
+    margin: 0.6em;
+    height: auto;
+    border-radius: 7px;
+    text-align: center;
+    padding: 1em;
+}
+
+/*tout les input, de type "text" et "submit" dans ce cas*/
+input{
+    padding: 1em;
+    border-radius: 3px;
+}
+
+/*
+input[type^= "te"]{ /* tout les input commencant par "te"/
+    border-radius: 30px;
+}
+
+input[type = "submit"]{ /* tout les input de type "submit"/
+    border-radius: 3px;
+}
+*/
